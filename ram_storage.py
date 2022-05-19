@@ -13,7 +13,7 @@ from threading import Thread
 from Queue import Queue
 
 SAVE_PERIOD = int(os.environ.get('RAM_STORAGE_SAVE_TIME', 5))
-FILE_STORAGE = os.environ.get('RAM_STORAGE_FILE', '/tmp/snapshot.csv')
+FILE_STORAGE = os.environ.get('RAM_STORAGE_FILE', '/tmp/snapshot.json')
 
 
 def listener(queue):

@@ -13,7 +13,7 @@ import json
 from ram_storage import set_value, get_value
 
 
-FILE_STORAGE = os.environ.get('RAM_STORAGE_FILE', '/tmp/snapshot.csv')
+FILE_STORAGE = os.environ.get('RAM_STORAGE_FILE', '/tmp/snapshot.json')
 SAVE_PERIOD = int(os.environ.get('RAM_STORAGE_SAVE_TIME', 5))
 
 
